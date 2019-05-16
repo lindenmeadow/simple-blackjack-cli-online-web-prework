@@ -44,7 +44,7 @@ def hit?(number)
   get_user_input
   if get_user_input == "h"
     deal_card
-  elsif get_user_input !("h" || "s")
+  elsif get_user_input != "h" || get_user_input != "s"
 
 end
 
