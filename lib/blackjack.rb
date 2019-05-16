@@ -42,7 +42,7 @@ def hit?(number)
   # code hit? here
   prompt_user
   get_user_input
-  if 
+  if
 end
 
 def invalid_command
