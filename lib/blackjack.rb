@@ -42,11 +42,15 @@ def hit?(number)
   # code hit? here
   prompt_user
   get_user_input
-  if
+  if get_user_input == "h"
+    deal_card
+  elsif get_user_input !("h" || "s")
+    
 end
 
 def invalid_command
   # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
